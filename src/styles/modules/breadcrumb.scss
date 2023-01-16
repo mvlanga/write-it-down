@@ -1,0 +1,14 @@
+.breadcrumb {
+  span:not(:last-child) {
+    margin-right: 1rem;
+
+    &:after {
+      margin-left: 1rem;
+      content: '>>';
+    }
+  }
+
+  .active {
+    text-decoration: none;
+  }
+}

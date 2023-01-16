@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+@import "variables";
+
+@import "modules/reset";
+@import "modules/typo";
+@import "modules/form";
+@import "modules/header";
+@import "modules/notes";
+@import "modules/breadcrumb";
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+section {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
